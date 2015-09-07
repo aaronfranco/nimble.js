@@ -1,14 +1,13 @@
 
 var config = {
     appconfig: [
-        /// add your endpoint URLs here
-        /// { "url":"", "sess":null}
+        { "url":"fblocations", "sess":null}
     ],
     initWithData: false,
     startIndex: 0,
     autoLogin: true,
     host: "portal.nimblestack.io",
     protocol: "https",
-    developer: "", // add your developer URL here
-    group: "" // add your published group here
+    developer: "n", // add your developer URL here
+    group: "firebaselocations" // add your published group here
 };

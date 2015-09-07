@@ -1,11 +1,11 @@
 // init
-var app = new app();
+var _app = new app();
 
 // initGui
-app.initGui = function () {
+_app.initGui = function () {
     console.log("All Systems Go!");
 };
 
 
 // start the application
-app.initialize();
+_app.initialize();
